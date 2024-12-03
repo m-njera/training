@@ -14,7 +14,7 @@ A quick and easy setup for running Jupyter notebooks in a Dockerized environment
 Clone this repository to your local machine:
 
 ```bash
-https://github.com/tech-acs/comesa-rap-pipeline.git
+git clone https://github.com/m-njera/training.git
 ```
 
 Navigate to the project root directory:
