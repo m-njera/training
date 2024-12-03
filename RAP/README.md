@@ -20,7 +20,7 @@ git clone https://github.com/m-njera/training.git
 Navigate to the project root directory:
 
 ```bash
-cd comesa-rap-pipeline/Training/Docker/
+cd RAP_pipeline_presentation\Training\RAP
 ```
 
 Build the the image for the Jupyter Notebook server:
