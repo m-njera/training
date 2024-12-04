@@ -4,6 +4,10 @@ Follow the following steps to create a PostgreSQL database named grafanadb, foll
 
 ```bash
 CREATE DATABASE grafanadb;
+
+docker inspect -f \
+'{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' \
+75000c343eb7
 ```
 #### Step 2: Create the query\_timeline Table
 
