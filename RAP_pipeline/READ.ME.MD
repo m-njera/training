@@ -19,4 +19,14 @@ docker --version
 ```bash
 docker-compose --version
 ```
-hjasg
+Step 1: Clone or Download the Project Files
+-------------------------------------------
+
+First, ensure you have the docker-compose.yml file ready on your machine. You can create this file manually or download it from the repository.
+
+Step 2: Set Up Bind Volumes
+---------------------------
+
+### Explanation of Bind Volumes:
+
+In this Docker Compose setup, **bind mounts** are used to map directories on your local machine to directories inside the containers. This allows changes to files in the local directory to be reflected inside the container and vice versa.
