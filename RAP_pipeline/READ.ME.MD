@@ -15,6 +15,8 @@ Before you start, ensure you have the following installed:
 You can verify the installation by running the followingcommands in your terminal:
 ```bash
 docker --version
+```
+```bash
 docker-compose --version
-
+```
 hjasg
