@@ -30,3 +30,24 @@ Step 2: Set Up Bind Volumes
 ### Explanation of Bind Volumes:
 
 In this Docker Compose setup, **bind mounts** are used to map directories on your local machine to directories inside the containers. This allows changes to files in the local directory to be reflected inside the container and vice versa.
+
+```bash
+volumes:
+  - type: bind
+    source: C:\Users\user\Documents\COMESA
+    target: /home/src/default_repo/rap
+```
+In this example:
+
+*   **source** is the path to a local directory on your machine (C:\\Users\\user\\Documents\\COMESA).
+    
+*   **target** is the path inside the container (/home/src/default\_repo/rap).
+    
+
+### Edit the Bind Source Directory:
+
+The source path points to the directory where your local files are stored. You must ensure this path exists on your machine before running the containers. If you are using a different directory, replace C:\\Users\\user\\Documents\\COMESA with your preferred path.
+
+#### Example:
+
+If your directory is C:\\Projects\\MageAI, update the volumes section as follows:
