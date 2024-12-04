@@ -1,4 +1,4 @@
-####Docker Compose Setup for Mage-AI, PostgreSQL, PgAdmin,Grafana, and Jupyter####
+####Docker Compose Setup for Mage-AI, PostgreSQL, PgAdmin,Grafana, and Jupyter
 
 This README will guide you through the step-by-step processof running the Docker Compose setup for the Mage-AI, PostgreSQL, PgAdmin,Grafana, and Jupyter services. The instructions will explain how to configurebindings, PostgreSQL credentials, and other required edits.
 
@@ -19,12 +19,12 @@ docker --version
 ```bash
 docker-compose --version
 ```
-####Step 1: Clone or Download the Project Files####
+####Step 1: Clone or Download the Project Files
 -------------------------------------------
 
 First, ensure you have the docker-compose.yml file ready on your machine. You can create this file manually or download it from the repository.
 
-####Step 2: Set Up Bind Volumes####
+####Step 2: Set Up Bind Volumes
 ---------------------------
 
 ### Explanation of Bind Volumes:
